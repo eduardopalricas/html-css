@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Quintessential&display=swap');
+* {
+ text-align:center;
+}
+body{
+    background-image: linear-gradient(to right, #C6DCF5, #305E94 );
+}
+
+    
+
+h1{
+    color: #720461;
+    text-align: center;
+    font:italic bolder 3em Lobster;
+    text-shadow: 1px 1px 1px #720461 ;
+    
+}
+h2{
+    color: #59406d ;
+    text-align:center;
+    font:normal bold 2em Lobster
+}
+main{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 7px 7px 5px #774a8bb2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    text-align:center;
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 7px 7px 5px #774a8bb2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 75px;
+    }
+a{
+    color:#9a4bbd ;
+    font-family: Quintessential;
+    text-decoration: none;
+}
+a::after{
+    content:'☚';
+    }
+a::before{
+    content:'☛ ';
+}
+a:visited{
+    color: #841bb1;
+}
+a:hover{
+    color: salmon;
+}
+a:active{
+    color: black;
+    text-decoration: underline;
+}
