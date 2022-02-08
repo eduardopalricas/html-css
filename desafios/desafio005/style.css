@@ -34,7 +34,8 @@ main{
 div{
     text-align:center;
     background-color: white;
-    width: 600px;
+    min-width: 300px;
+    max-width: 800px;
     border-radius: 10px;
     padding: 5px;
     margin: auto;
