@@ -1,0 +1,70 @@
+@charset "UTF-8";
+    
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Passion+One:wght@400;700;900&family=Playfair+Display&family=Quintessential&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Playfair+Display&family=Quintessential&family=Sriracha&display=swap');
+
+
+body{
+ height: 100%;
+ margin: 0px;
+}
+header{
+    font-family: passion one;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+header>h1{
+    padding-top:vw ;
+    padding-bottom:vw ;
+    margin: 0px;
+    font-size:23px;
+    font-weight: bold;
+}
+header>h2{
+    margin: 0px;
+    font-size: 5vw;
+    padding-bottom: 2vw;
+    font-family: passion one regular;
+}
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: passion one;
+    border-radius: 10px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header a:active{
+    color: rgb(253, 235, 161);
+}
+main{
+    padding-left: 45px;
+}
+section{
+    font-family: Sriracha;
+    line-height: 10px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: black; 
+    color: white;
+    text-align: center;      
+}
+footer p{
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: passion one regular ; 
+}
+footer a{
+    font-family: passion one ;
+    text-decoration: none;
+    color: white;
+}
