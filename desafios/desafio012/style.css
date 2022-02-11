@@ -14,20 +14,21 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    line-height: 50px;
 }
 header>h1{
-    padding-top:vw ;
-    padding-bottom:vw ;
+    padding-top: 20px;
+    padding-bottom:0px;
     margin: 0px;
-    font-size:23px;
+    font-size:8vw;
     font-weight: bold;
 }
 header>h2{
     margin: 0px;
-    font-size: 5vw;
-    padding-bottom: 2vw;
+    font-size: 4vw;
+    padding-bottom: 20px;
     font-family: passion one regular;
+    padding-top: 0px;
+    margin-top:0px;
 }
 header a{
     color: rgb(255, 255, 255);
@@ -43,15 +44,15 @@ header a:active{
 }
 main{
     padding-left: 45px;
+    margin: auto;
 }
 section{
     font-family: Sriracha;
-    line-height: 10px;
+    line-height: 20px;
     margin-bottom: 50px;
     margin-top: 60px;
-    font-size: 20px;
+    font-size: 3.5vw;
 }
-
 footer{
     background-color: black; 
     color: white;
@@ -60,11 +61,17 @@ footer{
 footer p{
     margin: 0px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 3.5vw;
     font-family: passion one regular ; 
 }
 footer a{
     font-family: passion one ;
     text-decoration: none;
     color: white;
+}
+section.paralaxe#q1{
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    back    
 }
