@@ -21,6 +21,7 @@ header>h1{
     margin: 0px;
     font-size:8vw;
     font-weight: bold;
+    font-variant: small-caps;
 }
 header>h2{
     margin: 0px;
@@ -49,7 +50,7 @@ main{
 section{
     font-family: Sriracha;
     line-height: 3vw;
-    margin-bottom: 50px;
+    margin-bottom: 10vw;
     margin-top: 10vw;
     font-size: 3.5vw;
 }
@@ -80,12 +81,14 @@ section.paralaxe#q1{
     line-height: 6vw;
     color: white;
     background-position:right center ;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
 }
 section.paralaxe#q1>p{
     background-color: rgba(0, 0, 0, 0.322);
     padding: 25px 0px 25px 25px ;
     border-radius: 10px;
-    width: 50vw;
+    width: 50vw; 
+    text-shadow: 1px 1px 0px black;
     }
 div{
     background-image: url('imagens/background002.jpg');
@@ -94,14 +97,19 @@ div{
     padding: 20px 20px 20px 20px;
     color: white;
     background-position:right center ;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
 }
 div p{
     background-color: rgba(0, 0, 0, 0.322);
     padding: 25px 0px 25px 25px ;
     border-radius: 10px;
     width: 50vw;
+    text-shadow: 1px 1px 0px black;
     }  
-    section.paralaxe{
-        line-height: 6vw;
-    }
+section.paralaxe{
+    line-height: 6vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 
