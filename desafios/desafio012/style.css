@@ -43,15 +43,18 @@ header a:active{
     color: rgb(253, 235, 161);
 }
 main{
-    padding-left: 45px;
+    padding-left: 0px;
     margin: auto;
 }
 section{
     font-family: Sriracha;
-    line-height: 20px;
+    line-height: 3vw;
     margin-bottom: 50px;
-    margin-top: 60px;
+    margin-top: 10vw;
     font-size: 3.5vw;
+}
+section.simples{
+    padding-left: 45px;
 }
 footer{
     background-color: black; 
@@ -72,6 +75,33 @@ footer a{
 section.paralaxe#q1{
     background-image: url('imagens/background001.jpg');
     background-size: cover;
-    background-attachment: fixed;
-    back    
+    background-attachment: fixed;    
+    padding: 20px 20px 20px 20px;
+    line-height: 6vw;
+    color: white;
+    background-position:right center ;
 }
+section.paralaxe#q1>p{
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 25px 0px 25px 25px ;
+    border-radius: 10px;
+    width: 50vw;
+    }
+div{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;    
+    padding: 20px 20px 20px 20px;
+    color: white;
+    background-position:right center ;
+}
+div p{
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 25px 0px 25px 25px ;
+    border-radius: 10px;
+    width: 50vw;
+    }  
+    section.paralaxe{
+        line-height: 6vw;
+    }
+
