@@ -28,16 +28,22 @@
         <caption>
             Filmes favoritos
         </caption>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
         <thead>
             <tr>
                 <th scope="col">Grupos</th>
                 <th scope="col">Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
                 <td>Ana</td>
                 <td>Allien</td>
                 <td>Rambo</td>
@@ -56,7 +62,7 @@
                 <td>Big hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th scope="rowgroup" rowspan="3">Homens</th>
                 <td>Eduardo</td>
                 <td>Pular a cerca</td>
                 <td>Toyl stoy</td>
