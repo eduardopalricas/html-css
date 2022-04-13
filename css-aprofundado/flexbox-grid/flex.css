@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+header{
+    font-size: 50px;
+    margin: 0px;
+}
+.box{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly
+    ;
+    background-color: rgba(14, 14, 14, 0.993);
+    color: rgb(255, 255, 255);
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+
+
+section{
+    font-size:20px ;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 800px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+}
+ul{
+    max-width: 150px;
+}
+li{
+    padding: 5px;
+}
+
