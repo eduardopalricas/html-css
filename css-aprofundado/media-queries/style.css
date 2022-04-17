@@ -78,19 +78,20 @@ html, body{
         display: none;
     }
     .appear{
-        margin: auto;
-        background-color: white;
-        font-weight: bold;
-        border-radius: 20px;
         font-size: 6vw;
-        display: flex;
+        padding: 20px;
+        font-weight: bold;
+        display: block;
         position: fixed;
-        bottom: 0;
-        justify-content: center; 
+        bottom: 0; 
+        background-color: white;
+        border-radius:20px ;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
         height: 10vh;
-        padding: 0px 20px;
         align-items: center;
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -106,7 +107,7 @@ html, body{
         align-items: center;
     }
     span{
-        font-size: 6vw;
+        font-size: 20px;
         padding: 20px;
         font-weight: bold;
     }
@@ -114,18 +115,19 @@ html, body{
         display: none;
     }
     .appear{
-        margin: auto;
-        background-color: white;
+        font-size: 20px;
+        padding: 20px;
         font-weight: bold;
-        border-radius: 20px;
-        font-size: 6vw;
-        display: flex;
+        display: block;
         position: fixed;
-        bottom: 0;
-        justify-content: center; 
-        width: 80%; 
+        bottom: 0; 
+        background-color: white;
+        border-radius:20px ;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
         height: 10vh;
-        
         align-items: center;
+        width: 85%;
     }
 }
